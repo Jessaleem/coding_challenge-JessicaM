@@ -14,6 +14,8 @@ function app(arr, target) {
   return result;
 }
 
+module.exports = app;
+
 console.log(app([1, 9, 5, 0, 20, -4, 12, 16, 7], 12));
 console.log(app([2, 0, 4, -1, 6, 7], 6));
 console.log(app([], 5));
